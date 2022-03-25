@@ -1,0 +1,107 @@
+:root {
+    --colorTextos: #49454567;
+}
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor{
+    
+
+}
+.box{
+    margin-top: 0px;
+    margin-left: -30%;
+    background-color: darkred;
+   width: 25%;
+   height: 65%;
+   border-radius: 30px;
+}
+.box img{
+    align-items: center;
+    display: block;
+    margin-top: 15px;
+    margin-left: 43%;
+    width: 75px;
+    height: 75px;
+}
+.box h1{
+    font-family: 'Strong';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: 60px;
+    line-height: 51px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.box label{
+    font-family: 'Ruda';
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+    margin-left: 43%;
+    text-align: center;
+    transition: 0.5s ease all;
+    
+}
+.box input{
+    border-radius: 15px;
+    text-align: center;
+    border-color: #A9B6E3;
+    font-family: Ruda;
+    color:black;
+    margin-left:50px;
+    font-size: 20px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+.box button{
+    font-size: 15px;
+    border-radius: 10px;
+    margin: 10px auto;
+    display: block;
+    margin-top: -40px;
+    outline: none;
+}
+.box p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.box a{
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.fondo{
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+
+    left: 25%;
+    top: 100px;
+}
+.img-fluid{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: block;
+}
+
+.p {
+    text-align: center;
+}

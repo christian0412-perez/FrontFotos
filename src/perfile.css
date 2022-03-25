@@ -1,0 +1,98 @@
+.icon-user{
+    width: 45px;
+    height: 45px;
+}
+.container{
+   text-align: left;
+    color: #000000;
+}
+
+.label{
+margin-left: 25px;
+}
+
+.menu{
+    background: #939393;
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 32px;
+    width: 200px;
+    height: 100vh;
+    top: 0;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.a{
+    position: absolute;
+}
+
+.bi{
+    vertical-align: -0.200em;
+}
+.content-file{
+    width: 445px;
+    position: relative;
+}
+.bton-file{
+    position: relative;
+    bottom: 39px;
+    left: 350px;
+}
+.content-file div{
+    outline: none;
+}
+.file{
+    z-index: 3;
+}
+
+.centrar {
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: translate(-60%, -50%);
+    width: 70%;
+    height: 70vh;
+}
+
+.centrar2{
+    position: absolute;
+    top: 60%;
+    left: 51%;
+    transform: translate(-51%, -60%);
+}
+
+.imagen {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.carousel-item {
+    height: 75vh;
+    min-height: 500px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.div-spin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #939393;
+    opacity:0.80 ;
+}
+
+.divloading {
+    width: 100%;
+    height: 100vh;
+    display: none;
+}
+
+

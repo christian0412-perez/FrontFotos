@@ -1,0 +1,121 @@
+:root {
+  --colorTextos: #49454567;
+}
+
+.container .grupo {
+  position: relative;
+  margin: 45px;
+}
+.box2 {
+  background-color: darkred;
+  margin-top: 0px;
+  margin-left: -30%;
+  width: 25%;
+  height: 72%;
+  border-radius: 30px;
+}
+.box2 img {
+  align-items: center;
+  display: block;
+  margin: auto;
+  width: 75px;
+  height: 75px;
+}
+.box2 h1 {
+  font-family: "Strong";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  margin-top: 60px;
+  line-height: 51px;
+  text-align: center;
+  color: #ffffff;
+}
+.box2 label {
+  font-family: "Ruda";
+  font-style: normal;
+  font-size: 20px;
+  color: white;
+  margin-left: 43%;
+  text-align: center;
+  transition: 0.5s ease all;
+}
+.box2 input {
+  border-radius: 15px;
+  text-align: center;
+  margin-top: -40px;
+  border-color: #a9b6e3;
+  font-family: Ruda;
+  color: black;
+  margin-left: 50px;
+  font-size: 20px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+.box2 button {
+  font-size: 15px;
+  border-radius: 10px;
+  margin: 10px auto;
+  display: block;
+  margin-top: -40px;
+  outline: none;
+}
+.fondo {
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: 50%;
+  position: absolute;
+
+  left: 25%;
+  top: 100px;
+}
+.img-fluid {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: block;
+}
+
+.label-error {
+  color: red;
+}
+.label-success {
+  color: green;
+}
+
+.barra {
+  background: none;
+  color: #8c36ee;
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid var(--colorTextos);
+}
+
+.barra:focus {
+  outline: none;
+  color: #5e5d5d;
+}
+
+.fondo-container {
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://res.cloudinary.com/jacrcam/image/upload/v1648158889/ProgramacionConcurrente/fond_epb0wo.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+}
+
+.p {
+  text-align: center;
+}
